@@ -46,7 +46,11 @@ gcloud auth login
 git push --all google
 ```
 
-Go to >> Cloud Build >> Triggers >> RUN 
+Go to >> Cloud Build
  
-After build is complete, check build history and click the SERVICE url
+After build is complete, check build history 
+
+Go to >> Container registry, where a container image would have been ready
+
+Deploy image to Cloud Run, Kubernetes or Compute Instance. 
 
